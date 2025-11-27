@@ -60,12 +60,6 @@ spring.jpa.hibernate.ddl-auto=create
 - `POST /students/{id}` : Öğrenci bilgilerini günceller.
 - `DELETE /students/{id}` : Öğrenciyi siler.
 
-## Testler
-Projede örnek bir test sınıfı vardır: `src/test/java/.../StudentManagementSystemApplicationTests.java`. Testleri çalıştırmak için:
-
-```powershell
-.\mvnw.cmd test
-```
 
 ## Bilinen bağımlılıklar
 - `org.springframework.boot:spring-boot-starter-data-jpa`
@@ -73,4 +67,5 @@ Projede örnek bir test sınıfı vardır: `src/test/java/.../StudentManagementS
 - `org.springframework.boot:spring-boot-starter-web`
 - `org.postgresql:postgresql` (runtime)
 - `org.projectlombok:lombok` (optional)
+
 
